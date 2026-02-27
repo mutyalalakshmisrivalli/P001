@@ -1,0 +1,21 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
+    body {
+        background-color: lightgray;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    ul {
+        list-style-position: inside;   /* ⭐ This fixes bullet alignment */
+        display: inline-block;         /* ⭐ Keeps list centered */
+        text-align: left;              /* ⭐ Keeps text properly aligned */
+    }
